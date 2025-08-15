@@ -1,47 +1,93 @@
 # DevShowcase
 
-[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://devshowcase.vercel.app)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+**A modern, single-page developer portfolio** built with **React + Vite** that showcases my GitHub projects, skills, and provides a fully functional contact form.  
 
-A single‑page developer portfolio built with **Vite + React**. It auto‑pulls your GitHub projects, showcases your skills & about section, and includes a **contact form** powered by **Formspree**.
+🌐 **Live Demo:** [https://devshowcase-ten.vercel.app/](https://devshowcase-ten.vercel.app/)
 
-## ✨ Features
-- Smooth single‑page navigation (Hero, Projects, Skills, About, Contact)
-- GitHub repo fetching by username (set once in `src/lib/config.js` or override with `?u=<user>`)
-- Clean, responsive layout with dark‑friendly styles
-- Contact form using Formspree (no backend)
-- Easy to customize sections & theme
+---
 
-## 🛠 Tech Stack
-- Frontend: React, Vite, CSS
-- Integrations: GitHub REST API, Formspree
-- Hosting: Vercel (no server required)
+## 📌 Features
 
-## 🔧 Setup
+- **Dynamic Projects Section**  
+  Automatically fetches and displays repositories from my GitHub profile (sorted by popularity and recent updates).  
+  Only non-forked repos are shown.
+
+- **Skills Overview**  
+  Lists my key frontend, backend, AI/ML, and tooling skills.
+
+- **About Me Section**  
+  Highlights my background, areas of expertise, and recent work.
+
+- **Fully Functional Contact Form**  
+  - Works in local development via direct Formspree POST  
+  - Works in production via Vercel serverless function proxy to avoid CORS issues
+
+- **Responsive & Accessible UI**  
+  Optimized for mobile, tablet, and desktop devices.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- React 18
+- Vite
+- JavaScript (ESNext)
+- HTML5, CSS3
+
+**Backend (Serverless)**
+- Vercel Functions (Node.js)
+- Formspree API integration
+
+**Data Sources**
+- GitHub REST API v3
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
 ```bash
-npm install
-npm run dev
+git clone https://github.com/YOUR_GITHUB_USERNAME/devshowcase.git
+cd devshowcase
 ```
 
-### Configure
-- Edit **`src/lib/config.js`** → set your GitHub username
-- Create a form at **formspree.io** and set **`FORMSPREE_ID`** in `src/sections/Contact.jsx`
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
 
-## 🌐 Deploy (Vercel)
-1. Push to GitHub
-2. Import the repo in **Vercel**
-3. Build command: `npm run build` • Output dir: `dist`
-4. No environment variables required
+### 3️⃣ Run Locally
+```bash
+npm run dev
+```
+The site will be available at **http://localhost:5173/**.
 
-## 📸 Screenshots
-Add screenshots in `/public` and reference them here.
+### 4️⃣ Build for Production
+```bash
+npm run build
+```
+The production build will be output to the `dist/` folder.
 
-## 🗺 Roadmap
-- Project pinning & custom ordering
-- Theme toggle (dark/light)
-- PDF export of resume + portfolio
+---
 
-## 📄 License
-MIT — add a `LICENSE` file if you plan to open‑source this template.
+## 📄 Deployment
+
+The project is deployed using **Vercel**.  
+**Live URL:** [https://devshowcase-ten.vercel.app/](https://devshowcase-ten.vercel.app/)
+
+---
+
+## 🏷️ GitHub Topics
+
+```
+react vite javascript portfolio github-api single-page formspree frontend vercel
+```
+
+---
+
+## 📬 Contact
+
+If you'd like to work together or discuss opportunities:  
+📧 **jonathanbloch100@gmail.com**  
+🌐 **[Portfolio](https://devshowcase-ten.vercel.app/)**
