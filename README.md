@@ -86,6 +86,15 @@ react vite javascript portfolio github-api single-page formspree frontend vercel
 
 ---
 
+## 📸 Screenshots
+### Mobile View
+<img src="public/screenshot-mobile.png" alt="SafeFront - Mobile" width="320"/>
+
+### Desktop View
+<img src="public/screenshot-desktop.png" alt="SafeFront - Desktop" width="720"/>
+
+---
+
 ## 📬 Contact
 
 If you'd like to work together or discuss opportunities:  
